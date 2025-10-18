@@ -3,7 +3,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+!**/bin
+/bin
+/bin/*
+./*.txt
 ### STS ###
 .apt_generated
 .classpath
@@ -12,7 +15,9 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
+.temp
+./*.txt
+.class
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -31,3 +36,5 @@ build/
 
 ### VS Code ###
 .vscode/
+/*.rar
+
